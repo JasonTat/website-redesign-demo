@@ -1,0 +1,70 @@
+.forgotpw {
+    letter-spacing: 1px;
+}
+
+.forgotpw:hover {
+    text-decoration: underline !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo { 
+    display: block;
+    margin: auto;
+    margin-bottom: 6rem;
+}
+
+.logoh1 {
+    text-align: center;
+}
+
+.midblock {
+
+}
+
+.inputblock{
+    margin-bottom: 0.5rem;
+}
+
+.inputblock input {
+    height: 3rem;
+    width: 22rem;
+    background: rgba(0,0,0,0);
+    border-color: rgba(255,255,255, 0.4);
+    border-width: 1px;
+    border-radius: 2px;
+
+}
+
+.inputblock input:first-child {
+    margin: 0 0 1rem 0;
+}
+
+.inputblock input::placeholder {
+    padding-left: 1rem;
+    letter-spacing: 3px;
+}
+
+.bottomblock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signInButton {
+    background-color: transparent;
+    border-color: rgba(255,255,255, 0.4);
+    border-width: 1px;
+    color: white; 
+    height: 2.5rem;
+    font-size: large;
+    font-weight: 100;
+    width: 7rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
