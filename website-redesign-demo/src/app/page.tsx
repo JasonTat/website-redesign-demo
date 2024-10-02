@@ -4,18 +4,19 @@ import styles from "./page.module.css";
 import VisibilityIcon from '@mui/icons-material/Visibility';
 
 
+//component
+import Navigation from './components/Navigation/Navigation';
+
 
 export default function Home() {
   return (
     <>
+      <Navigation />
 
       <div className={styles.container}>
-        
-
-
         <div>
           <div className={styles.logo}>
-            <h1 className={styles.logoh1}> insert logo</h1>
+            <h1 className={styles.logoh1}>Redefining <span className={styles.fleetManagement}>Fleet Management</span></h1>
           </div>
           <div className={styles.midblock}>
             <div className={styles.inputblock}>

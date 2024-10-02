@@ -34,7 +34,7 @@
 
 .inputblock input {
     height: 3rem;
-    width: 22rem;
+    width: 50%;
     background: rgba(0,0,0,0);
     border-color: rgba(255,255,255, 0.4);
     border-width: 1px;
@@ -67,4 +67,14 @@
     width: 7rem;
     cursor: pointer;
     letter-spacing: 2px;
+}
+
+
+.logoh1 {
+    text-shadow: 0 0 5px #ffffff;
+    font-size: 6rem;
+}
+.fleetManagement {
+    display: block;
+    
 }

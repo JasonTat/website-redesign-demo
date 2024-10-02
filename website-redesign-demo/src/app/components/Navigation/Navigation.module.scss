@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.nav {
+    margin: auto;
+}
+
+.navLink {
+    color: white;
+    margin: 2rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ffffff;
+
+}
+
+.navLink:hover {
+    color: #cb9c15;
+    text-decoration: underline;
+    transition: all 1s ease;
+    -webkit-transition: all .4s ease;
+    text-shadow: 0 0 5px #cb9c15;
+
+}
