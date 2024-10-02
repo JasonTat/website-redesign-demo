@@ -43,26 +43,26 @@ a {
 
 
 body {
-  background: linear-gradient(61deg, #5d4009, #092b31, #000000);
+  background: linear-gradient(65deg, #5d4009, #092b31, #000000);
   background-size: 600% 600%;
 
-  -webkit-animation: AnimationName 1s ease infinite;
-  -moz-animation: AnimationName 1s ease infinite;
-  animation: AnimationName 1s ease infinite;
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-  0%{background-position:0% 76%}
-  50%{background-position:100% 25%}
-  100%{background-position:0% 76%}
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
 }
 @-moz-keyframes AnimationName {
-  0%{background-position:0% 76%}
-  50%{background-position:100% 25%}
-  100%{background-position:0% 76%}
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
 }
 @keyframes AnimationName {
-  0%{background-position:0% 76%}
-  50%{background-position:100% 25%}
-  100%{background-position:0% 76%}
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
 }
